@@ -15,3 +15,7 @@ const products = [
 
 const productColors = products.filter(product => product.color == 'black');
 console.log(productColors);
+
+// using find() 
+const productColor = products.find(product => product.color == 'black');
+console.log(productColor);
